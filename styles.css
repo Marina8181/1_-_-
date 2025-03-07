@@ -1,0 +1,36 @@
+		body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: lightblue;
+            padding: 20px;
+			margin: 10px;
+			text-align: center;
+        }
+        .container {
+            display: flex;
+            gap: 10px;
+            margin: 10px;
+			height: 300px;
+        }
+        .left, .right {
+            width: 400px;
+            background-color: #228B22;
+            padding: 20px;
+        } 
+		.middle {
+            width: 1000px;
+            background-color: #FFF273;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: teal;
+            text-align: center;
+            padding: 10px;
+			margin: 10px;
+        }
+        button {
+            margin-top: 10px;
+        }
